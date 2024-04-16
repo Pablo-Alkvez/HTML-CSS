@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: blue;
+        }
+        a::after{
+            content: ' &lArr;';
+            color: aquamarine;
+            font-weight: lighter;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+  <h1>Personalizando links</h1>
+  <ul>
+    <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/13%20-%20Cores.pdf" target="_blank">github</a></li>
+    <li><a href="https://www.dafont.com/pt/old-london.font">youtube</a></li>
+    <li><a href="https://www.google.com/search?q=coment%C3%A1rio+em+css&oq=coment%C3%A1rio+em+css&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIICAEQABgWGB6oAgCwAgA&sourceid=chrome&ie=UTF-8">site</a></li>
+  </ul>
+</body>
+</html>
